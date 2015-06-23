@@ -1,0 +1,130 @@
+body {
+	color:#666;
+	background:#F7941E;
+	text-align:center;
+}
+#content {
+	width:905px;
+	_width:915px;
+	background:#fff url(../images/page_shadow_side.gif) no-repeat top right;
+	margin:25px auto 1em;
+	padding-right:10px;
+}
+
+a, a:link, a:visited, a:active {
+	color:#EE2D7B;
+	text-decoration:none;
+}
+a:hover {
+	color:#f93;
+	text-decoration:underline;
+}
+
+table.columns {
+	height:auto;
+}
+table.columns td.header {
+	padding:8px 0 0 18px;
+}
+table.blogHeader td.blogHeaderLeft {
+	width:114px;
+	padding-top:6px;
+	padding-bottom:18px;
+}
+table.blogHeader {
+	border:none;
+	margin:0;
+}
+table.blogHeader td.blogHeaderLeft {
+	width:114px;
+	padding-top:6px;
+	padding-bottom:18px;
+}
+table.blogHeader td.blogHeaderRight  {
+	background-image: url(../images/fork.jpg);
+	background-repeat: no-repeat;
+	background-position: 108px 0;
+	padding-right:18px;
+}
+table.columns td.left{
+	padding-top:2px;
+	width:168px;
+}
+table.columns td.center{
+	background-color:#fff;
+	border:none;
+	padding:4px 20px 15px 0; 
+	min-width:0;
+}
+table.columns td.footer {
+	padding:0;
+	margin:0;
+}
+table.componentCalendar {
+	font-size: 8px;
+}
+.article p {
+	padding-right:160px;
+}
+#footer {
+	position:absolute;
+	left:0;
+	width:915px;
+	padding-bottom: 1.5em;
+	background:#fff url(../images/page_shadow_bottom.gif) no-repeat bottom right;
+	color:#ccc;
+	text-align:center;
+}
+#footer  a{
+	color:#ccc;
+}
+#footer  a:link, #footer a:visited{
+	text-decoration:none;
+}
+#footer  a:hover{
+	text-decoration:underline;
+}
+#leftCol {
+	float:left;
+	font-size:108%;
+	padding-bottom:20px;
+}
+#nav{
+	list-style-type:none;
+	margin:0 18px 1em 18px;
+	border-top:1px solid #EE2D7B;
+	zoom:1;
+	padding:0;
+}
+#nav li{
+	float:right;
+	width:100%;
+}
+#nav li a{
+	display:block;
+	background-color:#fff;
+	padding-bottom:1px;
+	padding-left:1px;
+	border-bottom:1px solid #EE2D7B;
+}
+#nav li a:link, #nav li a:visited{
+	color:#EE2D7B;
+	text-decoration:none;
+}
+#nav li a:hover{
+	background-color:#F7941E;
+	text-decoration:none;
+}
+#nav ul{
+	list-style-type: none;
+}
+#nav ul li a{
+	display:block;
+	padding-left:6px;
+}
+#leftcol .component {
+	padding:0 0 5px 18px;
+}
+.componentLogin a {
+	display:none;
+}
